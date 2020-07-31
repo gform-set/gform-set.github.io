@@ -26224,7 +26224,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.htmlCODE.prototype.acts.GoTo,
 	cr.plugins_.Rex_Hash.prototype.exps.At,
 	cr.plugins_.AJAX.prototype.acts.SetHeader,
-	cr.plugins_.Browser.prototype.acts.ExecJs,
 	cr.plugins_.AJAX.prototype.cnds.OnComplete,
 	cr.plugins_.AJAX.prototype.exps.LastData,
 	cr.plugins_.Rex_Firebase_Authentication.prototype.cnds.OnLoginByOther,
