@@ -13,4 +13,4 @@ http_request.open('POST', 'https://docs.google.com/forms/d/e/1FAIpQLSfLrADgu4Kmw
 http_request.withCredentials = true;
 http_request.setRequestHeader('Content-Type', 'text/html');
 
-  }
+  };
