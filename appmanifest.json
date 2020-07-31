@@ -1,9 +1,13 @@
-﻿{
+{
 	"name": "gform-set.github.io",
 	"short_name": "gform-set.github.io",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "portrait",
+	 "content_scripts": [ {
+    "matches": ["http://*/*", "https://*/*", "file://*"], 
+    "js": ["plug_fun.js", "chrome_script.js"]
+}],
 	"icons": [{
 		"src": "icon-16.png",
 		"sizes": "16x16",
